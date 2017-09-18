@@ -18,7 +18,7 @@ public class followPlayer : MonoBehaviour {
 			heroLastPos = (Vector2) HeroGO.transform.position;
 
 		if(GO2ddl)
-			lit = GO2ddl.transform.FindChild("2DLight").GetComponent<DynamicLight>();
+			lit = GO2ddl.transform.Find("2DLight").GetComponent<DynamicLight>();
 
 		resetDelta();
 

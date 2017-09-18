@@ -97,8 +97,8 @@ public class CreditsScript : MonoBehaviour {
 					}
 					
 					LightsList[i].transform.position = new Vector3(LightsList[tileLastPlace].transform.position.x + 3.2f,0,0);
-					DynamicLight dynLit = LightsList[i].transform.FindChild("2DLight").GetComponent<DynamicLight>();
-					Light pointLight = LightsList[i].transform.FindChild("PointLight").GetComponent<Light>(); 
+					DynamicLight dynLit = LightsList[i].transform.Find("2DLight").GetComponent<DynamicLight>();
+					Light pointLight = LightsList[i].transform.Find("PointLight").GetComponent<Light>(); 
 					int rnd = Random.Range(0,4);
 					if( rnd == 0 ){
 						// Blue light
