@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: a6e55dfc768c64197bf4f6bbff4f894d
+labels:
+- light
+- 2dLight
+- martin
+- ysa
+- 2d
+- 2dsystem
+- system
+- shadow
+- 2dshadow
+- shadows
+- realtime
+- dynamic
+- free
+- gpu
+- lighting
+- tool
+- kit
+- smooth
+- shine
+- dark
+- umbra
+- penumbra
+- volumetric
+- draganddrop
+- drag
+- and
+- drop
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
