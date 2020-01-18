@@ -1,26 +1,36 @@
 ﻿using UnityEngine;
 
-public class GenerationMap : MonoBehaviour
+namespace Project
+{
+    public class GenerationMap : MonoBehaviour
 {
     public static int[,] myArr;
+    
+    public static int maxRoom = 1;
+    public int maxRoomInspector;
+    public static int maxLength ;
+   // public int maxLengthInspector;
     private string str;
     private int randomDoor, randomRoom;
 
     void Awake()
     {
-        myArr = new int[21, 21];
-        One(11, 10, 10, 10, 1, 1);
-        One(9, 10, 10, 10, 1, 1);
-        One(10, 11, 10, 10, 1, 1);
-        One(10, 9, 10, 10, 1, 1);
-        for (int i = 0; i < 21; i++)
+        maxRoom = maxRoomInspector;
+        maxLength =( maxRoom*3+1)*2;
+        myArr = new int[maxLength, maxLength];
+        One(maxLength/2+1, maxLength/2, maxLength/2, maxLength/2, 1, 1);
+        One(maxLength/2-1, maxLength/2, maxLength/2, maxLength/2, 1, 1);
+        One(maxLength/2, maxLength/2+1, maxLength/2, maxLength/2, 1, 1);
+        One(maxLength/2, maxLength/2-1, maxLength, maxLength, 1, 1);
+        for (int i = 0; i < maxLength; i++)
         {
-            for (int j = 0; j < 21; j++)
+            for (int j = 0; j < maxLength; j++)
             {
                 str = str + (myArr[i, j].ToString());
             }
             str = str + "\n";
         }
+        Debug.Log(str);
     }
 
     public void One(int xNew, int yNew, int xOld, int yOld, int door, int room)
@@ -104,7 +114,7 @@ public class GenerationMap : MonoBehaviour
 
     public void Zero(int xNew, int yNew, int xOld, int yOld, int room)
     {
-        randomRoom = Random.Range(1, 4);
+        randomRoom = Random.Range(1, maxRoom);
         if (room < randomRoom)
         {
             if (Mathf.Abs(yNew - yOld) != 0)
@@ -171,4 +181,4 @@ public class GenerationMap : MonoBehaviour
             }
         }
     }
-}
+}}
