@@ -71,9 +71,6 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -85,9 +82,6 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
