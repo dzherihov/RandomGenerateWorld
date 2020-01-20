@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Project
 {
@@ -187,7 +188,8 @@ namespace Project
         {
             if (Input.GetKey(KeyCode.R))
             {
-                Application.LoadLevel(0);
+                //Application.LoadLevel(0);
+                SceneManager.LoadScene(0);
             }
         }
 
