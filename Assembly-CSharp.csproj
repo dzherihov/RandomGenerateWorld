@@ -63,25 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RandomWorld\Scripts\ArrayRooms.cs" />
-    <Compile Include="Assets\RandomWorld\Scripts\GenerationMap.cs" />
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\DungeonProceduralLevelGenerator\Assets\Scripts\ArrayRooms.cs" />
+    <Compile Include="Assets\DungeonProceduralLevelGenerator\Assets\Scripts\GenerationMap.cs" />
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/UnityProjects/RandomGenerateWorld/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
