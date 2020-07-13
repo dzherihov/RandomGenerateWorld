@@ -14,7 +14,7 @@ namespace ProceduralLevelGenerator
         private string str;
         private int randomDoor, randomRoom;
 
-        void Awake()
+        public void GenerationMatrix()
         {      
             maxRoom = maxRoomInspector ;
 
@@ -40,7 +40,7 @@ namespace ProceduralLevelGenerator
                 str = str + "\n";
             }
 
-            //Debug.Log(str); //debug matrix
+            Debug.Log(str); //debug matrix
         }
 
         public void One(int xNew, int yNew, int xOld, int yOld, int door, int room)
